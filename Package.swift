@@ -27,8 +27,7 @@ let package = Package(
                 .linkedFramework("Security"),
                 .linkedFramework("SystemConfiguration"),
                 .linkedFramework("Foundation"),
-                .linkedFramework("UIKit"),
-//                .unsafeFlags(["-ObjC"])
+                .linkedFramework("UIKit", .when(platforms: [.iOS]))
             ]),
         .testTarget(
             name: "MOBFoundationSPMTests",
