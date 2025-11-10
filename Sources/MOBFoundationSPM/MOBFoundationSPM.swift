@@ -3,4 +3,4 @@
 
 
 // 重新导出二进制框架的内容
-//@_exported import MOBFoundation
+@_exported import MOBFoundation
