@@ -1,0 +1,15 @@
+{
+  "originHash" : "ceef02b0c7dd8e22b478069a66a43f9ae893688ca5d12e57dfbc8a054326469c",
+  "pins" : [
+    {
+      "identity" : "testflyverifycsdkspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/275919229/TestFlyVerifyCSDKSPM.git",
+      "state" : {
+        "revision" : "e16ca68b96a5250bc43e5cd4aa5577e65a0d5760",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}
