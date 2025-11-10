@@ -1,13 +1,13 @@
 {
-  "originHash" : "ceef02b0c7dd8e22b478069a66a43f9ae893688ca5d12e57dfbc8a054326469c",
+  "originHash" : "27005c63edb18c5f078afa77713c2990c6f22e93a0c8832978a42dc96928d7f1",
   "pins" : [
     {
-      "identity" : "testflyverifycsdkspm",
+      "identity" : "flyverifycsdkspm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/275919229/TestFlyVerifyCSDKSPM.git",
+      "location" : "https://github.com/275919229/FlyVerifyCSDKSPM.git",
       "state" : {
-        "revision" : "e16ca68b96a5250bc43e5cd4aa5577e65a0d5760",
-        "version" : "1.0.5"
+        "revision" : "049b79fe0408189878c24a0b8bb7fcaa854a0634",
+        "version" : "1.0.1"
       }
     }
   ],

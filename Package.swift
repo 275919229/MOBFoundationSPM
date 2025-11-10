@@ -12,7 +12,7 @@ let package = Package(
             name: "MOBFoundationSPM",
             targets: ["MOBFoundationSPM"]),
     ],
-    dependencies: [.package(url: "https://github.com/275919229/TestFlyVerifyCSDKSPM.git",from: "1.0.3")],
+    dependencies: [.package(url: "https://github.com/275919229/FlyVerifyCSDKSPM.git",from: "1.0.0")],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
@@ -20,7 +20,7 @@ let package = Package(
                       path: "Frameworks/MOBFoundation.xcframework"),
         .target(
             name: "MOBFoundationSPM",
-            dependencies: ["MOBFoundationSPMBin",.product(name: "TestFlyVerifyCSDKSPM", package: "TestFlyVerifyCSDKSPM")],
+            dependencies: ["MOBFoundationSPMBin",.product(name: "FlyVerifyCSDKSPM", package: "FlyVerifyCSDKSPM")],
             linkerSettings: [
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),
